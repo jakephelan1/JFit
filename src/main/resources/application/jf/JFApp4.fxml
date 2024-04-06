@@ -48,5 +48,6 @@
       <Button layoutX="91.0" layoutY="255.0" mnemonicParsing="false" onAction="#toDay2" prefHeight="46.0" prefWidth="266.0" text="Back and Biceps" />
       <Button layoutX="91.0" layoutY="305.0" mnemonicParsing="false" onAction="#toDay3" prefHeight="46.0" prefWidth="266.0" text="Legs and Shoulders" />
       <Button layoutX="91.0" layoutY="355.0" mnemonicParsing="false" onAction="#toDay4" prefHeight="46.0" prefWidth="266.0" text="Chest and Back" />
+      <Button layoutX="476.0" layoutY="12.0" mnemonicParsing="false" onAction="#updatePref" text="Update User Info" />
     </children>
 </AnchorPane>

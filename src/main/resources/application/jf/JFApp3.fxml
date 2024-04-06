@@ -41,6 +41,6 @@
       <Line endX="-103.0" endY="193.0" layoutX="104.0" layoutY="146.0" startX="254.0" startY="193.0" strokeWidth="3.0" />
       <Line endX="-103.0" endY="205.0" layoutX="104.0" startX="254.0" startY="205.0" strokeWidth="3.0" />
       <Line endX="-100.0" endY="194.0" layoutX="459.0" layoutY="206.0" startX="-100.0" strokeWidth="3.0" />
-      <Button layoutX="449.0" layoutY="19.0" mnemonicParsing="false" onAction="#updatePref" text="Update Preferences" />
+      <Button layoutX="472.0" layoutY="10.0" mnemonicParsing="false" onAction="#updatePref" text="Update User Info" />
    </children>
 </AnchorPane>

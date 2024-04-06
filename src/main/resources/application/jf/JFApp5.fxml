@@ -96,5 +96,6 @@
             <Font size="20.0" />
          </font>
       </Label>
+      <Button layoutX="476.0" layoutY="12.0" mnemonicParsing="false" onAction="#updatePref" text="Update User Info" />
     </children>
 </AnchorPane>
