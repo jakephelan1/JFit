@@ -155,7 +155,6 @@ public class ButtonsCont implements Initializable{
         InputStream responseStream = connection.getInputStream();
         ObjectMapper mapper = new ObjectMapper();
         JsonNode root = mapper.readTree(responseStream);
-        System.out.println(root.toString());
         List<UserData> userSet = Controller.loadUserData();
         UserData user = Controller.findByUsername(userSet, Controller.UN);
         for (JsonNode foodItem : root) {
