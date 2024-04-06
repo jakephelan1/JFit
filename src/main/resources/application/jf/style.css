@@ -1,0 +1,18 @@
+.root{
+    -fx-background-color: "white";
+}
+
+.label{
+    -fx-text-fill: "black";
+    -fx-font-family: "serif";
+}
+
+#titleLabel{
+    -fx-text-fill: "black";
+    -fx-font-family: "Impact";
+}
+
+#welcome{
+    -fx-font-size: 30;
+    -fx-font-family: "Impact";
+}

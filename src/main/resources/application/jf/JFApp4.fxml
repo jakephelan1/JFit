@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.jf.ButtonsCont">
+    <children>
+        <Label id="welcome" fx:id="welcome" layoutX="26.0" layoutY="25.0" />
+        <Label layoutX="13.0" layoutY="215.0" text="Day 1">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="13.0" layoutY="265.0" text="Day 2">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="13.0" layoutY="315.0" text="Day 3">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <ProgressBar fx:id="calTracker" layoutX="386.0" layoutY="358.0" prefWidth="200.0" progress="0.0" />
+        <ProgressBar fx:id="proteinTracker" layoutX="386.0" layoutY="300.0" prefWidth="200.0" progress="0.0" />
+        <Label fx:id="proteinCounter" layoutX="389.0" layoutY="282.0" text="label" />
+        <Label fx:id="calorieCounter" layoutX="389.0" layoutY="340.0" text="label" />
+        <Label layoutX="371.0" layoutY="241.0" text="Food:" />
+        <TextField fx:id="food" layoutX="409.0" layoutY="237.0" prefHeight="26.0" prefWidth="106.0" />
+        <Button fx:id="Calculate" layoutX="525.0" layoutY="237.0" mnemonicParsing="false" onAction="#calc" text="Update" />
+      <Line endX="-100.0" endY="193.0" layoutX="190.0" layoutY="207.0" startX="-100.0" strokeWidth="3.0" />
+      <Line endX="-103.0" endY="200.0" layoutX="104.0" layoutY="54.0" startX="254.0" startY="200.0" strokeWidth="3.0" />
+      <Line endX="-103.0" endY="193.0" layoutX="104.0" layoutY="110.0" startX="254.0" startY="193.0" strokeWidth="3.0" />
+      <Line endX="-103.0" endY="205.0" layoutX="104.0" startX="254.0" startY="205.0" strokeWidth="3.0" />
+      <Line endX="-100.0" endY="194.0" layoutX="459.0" layoutY="206.0" startX="-100.0" strokeWidth="3.0" />
+      <Label layoutX="13.0" layoutY="365.0" text="Day 4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Line endX="-103.0" endY="193.0" layoutX="104.0" layoutY="160.0" startX="254.0" startY="193.0" strokeWidth="3.0" />
+      <Button layoutX="91.0" layoutY="206.0" mnemonicParsing="false" onAction="#toDay1" prefHeight="46.0" prefWidth="266.0" text="Chest,Triceps, Shoulders" />
+      <Button layoutX="91.0" layoutY="255.0" mnemonicParsing="false" onAction="#toDay2" prefHeight="46.0" prefWidth="266.0" text="Back and Biceps" />
+      <Button layoutX="91.0" layoutY="305.0" mnemonicParsing="false" onAction="#toDay3" prefHeight="46.0" prefWidth="266.0" text="Legs and Shoulders" />
+      <Button layoutX="91.0" layoutY="355.0" mnemonicParsing="false" onAction="#toDay4" prefHeight="46.0" prefWidth="266.0" text="Chest and Back" />
+    </children>
+</AnchorPane>
