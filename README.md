@@ -48,7 +48,7 @@ JFit is a Java-based fitness application that helps users manage their workout r
 2. **Create an Account or Login:** Use the login screen to create a new account or log in
 3. **Set Up Your Profile:** Enter your personal details, fitness goals, and preferences
 4. **View Your Workout Plan:** Navigate through the daily workout plans
-5. **Track Your Progress:** Log your calorie and protein intake, and update your measurements
+5. **Track Your Progress:** Enter the food you eat throughout the day to keep track of your calorie and protein intake.
 6. **Update Your Information:** Modify your profile information as needed
 
 ## Project Structure
