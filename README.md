@@ -2,7 +2,7 @@
 
 Created by: [Jake Phelan](https://github.com/jakephelan1)
 
-https://github.com/user-attachments/assets/89cf3d2f-b9d5-4fbe-bf0c-f4b3adf4c5cc
+https://github.com/user-attachments/assets/fea4b5cc-2c00-42da-9160-77546170d13d
 
 ## Project Description
 JFit is a Java-based fitness application that helps users manage their workout routines, track their calorie and protein intake, and monitor their fitness progress. The application provides personalized workout plans based on the user's preferences and fitness goals.
